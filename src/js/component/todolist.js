@@ -22,7 +22,7 @@ export function ToDoList() {
 	};
 
 	const removerTarea = index => {
-		alert(index);
+		//alert(index);
 		let newList = tareas;
 		newList.splice(index, 1);
 		console.log(newList);
@@ -61,7 +61,7 @@ export function ToDoList() {
 								type="button"
 								className="btn btn-danger btn-sm float-right"
 								onClick={() => removerTarea(index)}
-								value="Eliminar"
+								value="Concluir"
 							/>
 						</li>
 					))}
